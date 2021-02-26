@@ -1,3 +1,4 @@
+import React from "react"
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,7 +7,15 @@ class SingInForm extends React.Component {
     super(props)
   }
   render() {
-    return 
+    return (
+      <form className="forms">
+        <fieldset className="inputs" >
+        <input type="text" className="inputs"/>
+        <br/>
+        <input type="password" className="inputs"/>
+        </fieldset>
+      </form>
+    )
   }
 }
 
@@ -14,8 +23,8 @@ class SingInForm extends React.Component {
 
 function App() {
   return (
-    
-  );
+    <SingInForm />
+  )
 }
 
 export default App;
