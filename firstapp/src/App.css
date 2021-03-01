@@ -27,12 +27,31 @@
 .App-link {
   color: #61dafb;
 }
-.forms {
+.signInForm {
   padding: 20px;
+  display: block;
+  
 }
 .inputs {
-  margin: 20px;
-  padding: 4px;
+  margin: 10px;
+  width: 260px;
+}
+.signInfieldset {
+  display: grid;
+  height: 1000px;
+}
+.horizontal {
+  height: 5px;
+  background-color: green;
+}
+.anchors {
+  position: relative;
+  top: 30px;
+  left: -80px;
+}
+.buttons {
+  position: absolute;
+  /*margin: 100px;*/
 }
 @keyframes App-logo-spin {
   from {
